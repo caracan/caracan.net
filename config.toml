@@ -1,0 +1,48 @@
+languageCode = "en-us"
+title = "caracan.net"
+baseURL = "https://caracan.net"
+theme = "hyde-y"
+paginate = 5
+paginatePath = "post"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+canonifyurls = true
+
+
+[Permalinks]
+  post = "/:year/:month/:filename/"
+  code = "/:filename/"
+
+[indexes]
+   category = "categories"
+   tag = "tags"
+[Params]
+  AuthorName = "Andy"
+  author = "Andy Downs"
+
+  # Branding
+  home = "cd ~"
+  topline = "cat ~/.bash_history | website"
+  footline = "A load of bobbins"
+  languageCode = "en-GB"
+  copyright = "(c) 2017 Andy Downs"
+
+  # Theme Config
+  sidebar = "left"
+  themeColor = "theme-base-od"
+
+  # Social Links
+	rss = "true"
+  github = "caracan"
+  twitter = "andmedowns"
+  linkedin = "andrew-downs"
+
+[blackfriday]
+    angledQuotes = true
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []
