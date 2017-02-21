@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "caracan.net"
-baseURL = "https://caracan.net"
+baseURL = "https://caracan.net/"
 theme = "hyde-y"
 paginate = 5
 paginatePath = "post"
