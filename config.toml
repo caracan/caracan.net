@@ -17,10 +17,10 @@ canonifyurls = true
 [indexes]
    category = "categories"
    tag = "tags"
-[Params]
-  AuthorName = "Andy"
-  author = "Andy Downs"
-
+[author]
+#  name = "Andy"
+  name = "Andy Downs"
+[params]
   # Branding
   home = "cd ~"
   topline = "cat ~/.bash_history | website"
