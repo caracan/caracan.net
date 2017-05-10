@@ -1,8 +1,7 @@
 +++
-draft = true
 type = "post"
 categories = ["Home Lab"]
-date = "2017-02-28T07:44:12Z"
+date = "2017-05-10T07:44:12Z"
 title = "Building a home lab: pt 1 specs"
 tags = ["lab, home lab"]
 #description = "Building a home lab: part 1"
